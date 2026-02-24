@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi - Tugas Web 1</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Halaman Registrasi untuk Tugas Web 1">
+</head>
+<body>
+
+    <!-- Container Utama menggunakan DIV -->
+    <div class="container">
+        <div class="form-header">
+            <h2>Daftar Akun</h2>
+        </div>
+        
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="fullname">Nama Lengkap</label>
+                <!-- Input field for full name -->
+                <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap anda" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Alamat Email</label>
+                <!-- Input field for email -->
+                <input type="email" id="email" name="email" placeholder="Masukkan email anda" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <!-- Input field for password -->
+                <input type="password" id="password" name="password" placeholder="Buat password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm-password">Konfirmasi Password</label>
+                <!-- Input field for confirming password -->
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Ulangi password" required>
+            </div>
+            
+            <button type="submit" class="btn">Daftar</button>
+        </form>
+        
+        <div class="footer-link">
+            <!-- Hyperlink ke halaman Login -->
+            Sudah punya akun? <a href="login.html">Login disini</a>
+        </div>
+    </div>
+
+</body>
+</html>
